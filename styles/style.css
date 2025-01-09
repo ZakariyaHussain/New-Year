@@ -115,3 +115,45 @@
     height: 500px;
     margin-top: 48px;
 }
+/* welcome section */
+#welcome{
+    width: 1320px;
+    height: 600px;
+    background-image: url(../assets/images/Vectorrr.png);
+    background-repeat: no-repeat;
+    display: flex;
+}
+.welcome-content{
+    margin-top: 126px;
+    margin-left: 126px;
+}
+.welcome-content .title{
+    width: 642px;
+    font-size: 64px;
+    line-height: 88px;
+    letter-spacing: 6px;
+    color: #ffffff;
+    margin: 0;
+    
+}
+.welcome-content .description{
+    width: 697px;
+    font-size: 18px;
+    line-height: 30px;
+    color: #ffffff80;
+    margin-top: 24px;
+    margin-bottom: 48px;
+}
+.welcome-content button{
+    font-family: "Inter", serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: bold;
+    background: transparent;
+    color: #ffffff;
+    border: none;
+}
+.welcome-img{
+    margin-right: 138px;
+    margin-top: 68px;
+}
