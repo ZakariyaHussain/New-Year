@@ -1,0 +1,117 @@
+/* font style */
+.merriweather-light {
+    font-family: "Merriweather", serif;
+    font-weight: 300;
+    font-style: normal;
+  }
+  
+  .merriweather-regular {
+    font-family: "Merriweather", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .merriweather-bold {
+    font-family: "Merriweather", serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+  
+  .merriweather-black {
+    font-family: "Merriweather", serif;
+    font-weight: 900;
+    font-style: normal;
+  }
+  
+  .merriweather-light-italic {
+    font-family: "Merriweather", serif;
+    font-weight: 300;
+    font-style: italic;
+  }
+  
+  .merriweather-regular-italic {
+    font-family: "Merriweather", serif;
+    font-weight: 400;
+    font-style: italic;
+  }
+  
+  .merriweather-bold-italic {
+    font-family: "Merriweather", serif;
+    font-weight: 700;
+    font-style: italic;
+  }
+  
+  .merriweather-black-italic {
+    font-family: "Merriweather", serif;
+    font-weight: 900;
+    font-style: italic;
+  }
+/* inter font */
+.inter {
+  font-family: "Inter", serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+  /* End google font  */
+
+*{
+    margin: 0 auto;
+    padding: 0;
+}
+.hero{
+    background-image: url("../assets/images/Banner\ Image.png");
+    width: 1320px;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #000;
+    opacity: 0.9;
+}
+.hero-content{
+    width: 632px;
+    height: 246px;
+    color: white;
+    text-align: center;
+}
+.hero-content .subtitle{
+    font-size: 32px;
+}
+.hero-content .title{
+    font-size: 72px;
+    line-height: 95px;
+}
+/* Add section */
+
+#add{
+    width: 803px;
+    height: 806px;
+    margin: 120px auto;
+}
+#add .title{
+    font-family: "Inter", serif;
+    font-size: 88px;
+    font-weight: bold;
+    color: #FF0000;
+    text-align: center;
+    margin-bottom: 48px;
+}
+.add-subtitle{
+    font-family: "Inter", serif;
+    font-size: 24px;
+    font-weight: 500;
+    color: #FF0000;
+    text-align: center;
+}
+.add-title{
+    font-family: "Inter", serif;
+    font-size: 48px;
+    font-weight: bold;
+    color: #070211;
+    text-align: center;
+}
+#add img{
+    width: 803px;
+    height: 500px;
+    margin-top: 48px;
+}
