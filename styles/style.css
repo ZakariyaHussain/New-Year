@@ -59,14 +59,13 @@
     padding: 0;
 }
 .hero{
-    background-image: url("../assets/images/Banner\ Image.png");
+    background-image: linear-gradient(to right, rgb(0, 0, 0), rgba(255, 255, 255, 0)), url("../assets/images/Banner\ Image.png");
     width: 1320px;
     height: 600px;
     display: flex;
     justify-content: center;
     align-items: center;
     background-color: #000;
-    opacity: 0.9;
 }
 .hero-content{
     width: 632px;
@@ -119,7 +118,7 @@
 #welcome{
     width: 1320px;
     height: 600px;
-    background-image: url(../assets/images/Vectorrr.png);
+    background-image: linear-gradient(to right, rgb(0, 0, 0), rgba(255, 255, 255, 0)), url(../assets/images/Vectorrr.png);
     background-repeat: no-repeat;
     display: flex;
 }
@@ -156,4 +155,44 @@
 .welcome-img{
     margin-right: 138px;
     margin-top: 68px;
+}
+/* shedule section */
+#shedule{
+  width: 1320px;
+  height: 480px;
+  margin: 60px auto;
+  background-image: linear-gradient(to top, #ff000000, #ff000010);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.date-time{
+  width: 549px;
+  height: 272px;
+  text-align: center;
+}
+.date-time h3{
+  font-family: "Inter", serif;
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 56px;
+  
+}
+.date-time h3 span{
+  font-family: "Inter", serif;
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 56px;
+  color: #FF0000;
+}
+.date-time button{
+  padding: 16px 32px;
+  background-color: #FF0000;
+  border-radius: 8px;
+  border: none;
+  font-family: "Inter", serif;
+  font-size: 20px;
+  font-weight: 700;
+  color: #ffffff;
+  margin-top: 48px;
 }
